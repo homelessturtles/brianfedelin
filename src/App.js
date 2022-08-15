@@ -43,11 +43,11 @@ function App() {
         height: "100vh",
         padding: 0,
         margin: 0,
-        overflowY: "scroll",
+        overflowY: "hidden",
       }}
     >
       <Nav />
-      <div className="intro" style={{ padding: "1.25rem" }}>
+      <div className="intro" style={{ paddingBottom: "1rem" }}>
         <h3>Hi, I'm Brian 👋</h3>
         <p style={{ fontSize: "1rem" }}>MERN Stack Web Developer 💻 </p>
       </div>
