@@ -50,7 +50,11 @@ const Skills = ({ setShowSkills }) => {
             onClick={() => {
               setShowSkills(false);
             }}
-            style={{ width: "2rem", justifyContent: "flex-end" }}
+            style={{
+              width: "2rem",
+              justifyContent: "flex-end",
+              cursor: "pointer",
+            }}
           />
         </div>
         <p>

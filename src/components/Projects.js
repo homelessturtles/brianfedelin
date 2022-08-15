@@ -8,7 +8,7 @@ import weatherApp from "../assets/weatherApp.png";
 const projectsContStyle = {
   position: "absolute",
   minWidth: "100%",
-  height: "100%",
+  minHeight: "100%",
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
@@ -25,7 +25,7 @@ const projectsCardStyle = {
   padding: "2rem",
   paddingTop: 0,
   height: "90vh",
-  width: "fit-content",
+  maxWidth: "90vw",
   borderRadius: "1rem",
   boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
   textAlign: "left",
@@ -56,7 +56,11 @@ const Projects = ({ setShowProjects }) => {
             onClick={() => {
               setShowProjects(false);
             }}
-            style={{ width: "2rem", justifyContent: "flex-end" }}
+            style={{
+              width: "2rem",
+              justifyContent: "flex-end",
+              cursor: "pointer",
+            }}
           />
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: "3rem" }}>

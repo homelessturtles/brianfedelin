@@ -38,14 +38,18 @@ function App() {
       style={{
         display: "flex",
         flexDirection: "column",
-        maxWidth: "100vw",
-        maxHeight: "100vh",
+        alignItems: "center",
+        width: "100vw",
+        height: "100vh",
+        padding: 0,
+        margin: 0,
+        overflowY: "scroll",
       }}
     >
       <Nav />
       <div className="intro" style={{ padding: "1.25rem" }}>
-        <h1>Hi, I'm Brian 👋</h1>
-        <p style={{ fontSize: "1.25rem" }}>MERN Stack Web Developer 💻 </p>
+        <h3>Hi, I'm Brian 👋</h3>
+        <p style={{ fontSize: "1rem" }}>MERN Stack Web Developer 💻 </p>
       </div>
       <div className="menu" style={menuStyle}>
         <div
@@ -92,10 +96,16 @@ function App() {
         {showAbout && <About setShowAbout={setShowAbout} />}
       </div>
       {showSkills && <Skills setShowSkills={setShowSkills} />}
-      <div style={{ height: "100%" }}>
+      <div
+        style={{
+          height: "100%",
+        }}
+      >
         {showProjects && <Projects setShowProjects={setShowProjects} />}
       </div>
-      {showContact && <Contact setShowContact={setShowContact} />}
+      <div style={{ height: "100%" }}>
+        {showContact && <Contact setShowContact={setShowContact} />}
+      </div>
     </div>
   );
 }
