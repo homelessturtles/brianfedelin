@@ -33,9 +33,17 @@ function App() {
   const [showContact, setShowContact] = useState(false);
 
   return (
-    <div className="App" style={{ maxWidth: "100vw", maxHeight: "100vh" }}>
+    <div
+      className="App"
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        maxWidth: "100vw",
+        maxHeight: "100vh",
+      }}
+    >
       <Nav />
-      <div className="intro" style={{ padding: "2rem" }}>
+      <div className="intro" style={{ padding: "1.25rem" }}>
         <h1>Hi, I'm Brian 👋</h1>
         <p style={{ fontSize: "1.25rem" }}>MERN Stack Web Developer 💻 </p>
       </div>

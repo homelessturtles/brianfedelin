@@ -1,0 +1,31 @@
+(Skills Section)
+
+I am proficient in client-side languages such as HTML, CSS, Javascript, and ReactJS in order to make dynamic 
+and interactive user interfaces 
+
+Additionally, I'm knowledgable in server-side technology such as MongoDB/Mongoose to create 
+and interact with databases, as well as Express & NodeJS to handle network request and responses.
+
+In addition to pure web development, I also have experience in design/marketing in which I 
+learned graphic/UX design tools such as Figma for website protoyping and Canva for creating engaging
+visuals.
+
+I am also a self starter and enjoy taking the intitaitive of learning new/congruent skills on my own!
+
+(Projects Sections)
+
+Weather App
+Job Search App
+Anime Review
+
+(About Section)
+
+🌁 I'm born and raised in the SF Bay Area "YAY AREAAA"
+🧗🏼‍♂️ I enjoy rock climbing and you can probably find me at the bouldering gym every other day haha
+🎧 Music inspires me and I ocassionally produce music for fun
+
+
+
+
+
+
