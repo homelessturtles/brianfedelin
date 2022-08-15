@@ -1,0 +1,23 @@
+.navbar {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo img {
+  width: 3rem;
+  border: 0;
+}
+
+.burger img {
+  width: 4rem;
+}
