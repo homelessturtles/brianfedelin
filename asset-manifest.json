@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bfe7cc66.css",
+    "main.js": "/static/js/main.c11e4615.js",
+    "static/media/animeReview.png": "/static/media/animeReview.149d6b4c68ca04b17c3a.png",
+    "static/media/weatherApp.png": "/static/media/weatherApp.07207f97af078a3646a9.png",
+    "static/media/jobListing.png": "/static/media/jobListing.51f81f1eb3bd9e383dae.png",
+    "static/media/brianMemoji.jpeg": "/static/media/brianMemoji.812c81a291bde88f463f.jpeg",
+    "static/media/github.svg": "/static/media/github.abfb351fefa8d85fbcf276bf7691316b.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.5d307a828974578c6e70424bd859b29f.svg",
+    "static/media/email.svg": "/static/media/email.3f99a24ed965e1ef5c11b5c16a3999c7.svg",
+    "static/media/hamburger.svg": "/static/media/hamburger.dacea7b7744b011f6010d07bcf972dcc.svg",
+    "index.html": "/index.html",
+    "static/media/x.svg": "/static/media/x.4bbc1561b5ac2fe2bed3c0ca173ef19e.svg",
+    "main.bfe7cc66.css.map": "/static/css/main.bfe7cc66.css.map",
+    "main.c11e4615.js.map": "/static/js/main.c11e4615.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfe7cc66.css",
+    "static/js/main.c11e4615.js"
+  ]
+}
