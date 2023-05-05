@@ -57,13 +57,13 @@ const About = ({ setShowAbout }) => {
         >
           <div>
             <p style={{ fontSize: "2.5rem" }}>🌁</p>
-            <p>I'm born and raised in the SF Bay Area "YAY AREAAA"</p>
+            <p>I'm born and raised in the SF Bay Area</p>
           </div>
           <div>
             <p style={{ fontSize: "2.5rem" }}>🧗🏼‍♂️</p>
             <p>
               I enjoy rock climbing and you can probably find me at the
-              bouldering gym every other day haha
+              bouldering gym every other day
             </p>
           </div>
           <div>
